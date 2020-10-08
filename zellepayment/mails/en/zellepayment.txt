@@ -1,0 +1,46 @@
+Hi {firstname} {lastname},
+
+YOUR ORDER #{id_order} FOR PAYMENT VIA ZELLE
+
+IT AVAILABLE ONLY FOR PAYMENT IN THE USA!
+
+Your order has been placed successfully, and will be shipped as soon as payment is received.
+
+SELECT THE USD AS THE CURRENCY WHEN TRANSFERRING!
+
+
+INSTRUCTION FOR ALL USERS:
+
+Our email address: {zellepayment_owner}
+
+If it requests a name: need to write "{zellepayment_details}"
+
+Payment details: {zellepayment_address}
+
+Order total amount is {total_paid}
+
+
+Note: If this email does not work for you, contact our support we will supply you a different one then you would fill out the form normally below.
+
+Visit a https://www.zellepay.com/ or download Zelle App.
+You need to be registered in Zelle either with your bank or the Zelle App. Zelle is usually available through online banking.
+Then you need to send us a payment to our email address {zellepayment_owner}.
+If it requests a name as well, please write "{zellepayment_details}".
+Be sure to indicate in the payment details: {zellepayment_address}.
+(IMPORTANT NOTE: it is very important that you DO NOT WRITE the name of our site or name products in the payment order).
+Once you have made the payment, you will need to send us the confirmation number, your first and last name attached to your Bank/Zelle account, and the EXACT amount sent by filling out the form below and submitting your order. Please keep a screenshot ready in the rare event we cannot locate your transfer.
+NEVER CONTACT us the email we gave you to pay for your order, they are for payment purposes ONLY. Your order could be delayed or canceled if you contact this email. Also, NEVER CONTACT directly ZELLE, for any reason.
+We cannot accept payment from these banks listed, if you send a payment it will get rejected and the bank will issue a refund.
+- Fifth Third Bank
+- First Tennessee Bank
+You can tell us the information in your personal account, either through the Contact page (https://www.big-up.shop/feedback.html) or in the Telegram (https://t.me/bigupshop). Please note that the Telegram via TOR does not work.
+
+
+You can review this order and download your invoice from the "Order history" section of your account by clicking "My account" on our Website.
+
+Thank you for shopping at {shop_name}.
+
+{shop_name} - {shop_url}
+
+
+{shop_url}

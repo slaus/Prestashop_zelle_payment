@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>zellepayment</name>
+	<displayName><![CDATA[Zelle]]></displayName>
+	<version><![CDATA[2.2.0]]></version>
+	<description><![CDATA[Принимать платежи через Zelle]]></description>
+	<author><![CDATA[Slaus]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Вы уверены, что вы хотите удалить ваши данные?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

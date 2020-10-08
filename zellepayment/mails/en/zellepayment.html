@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Message from {shop_name}</title>
+</head>
+<body>
+	<table style="font-family:Verdana,sans-serif; font-size:12px; color:#374953; width: 550px;">
+		<tr>
+			<td align="left">
+				<a href="{shop_url}" title="{shop_name}"><img alt="{shop_name}" src="{shop_logo}" style="border:none;" ></a>
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="font-size: 16px; padding: 0.5em 0;">Hi, <strong style="color:#6f00d3;">{firstname} {lastname}</strong>,</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="background-color:#6f00d3; color:#FFF; font-size: 12px; font-weight:bold; padding: 0.5em 1em;">YOUR ORDER #{id_order} FOR PAYMENT VIA ZELLE</td>
+		</tr>
+		<tr><td align="left" style="color:#6f00d3; font-size: 16px; font-weight:bold; padding: 0.5em 0;">IT AVAILABLE ONLY FOR PAYMENT IN THE USA!</td></tr>
+		<tr>
+			<td align="left">
+				<b>Your order has been placed successfully, and will be shipped as soon as payment is received.</b>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" style="color:#6f00d3; font-size: 12px; font-weight:bold; padding: 0.5em 0;">SELECT THE USD AS THE CURRENCY WHEN TRANSFERRING!</td>
+		</tr>
+		
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left">
+				<b>INSTRUCTION FOR ALL USERS:</b>
+				<br />
+				Our email address:<b>{zellepayment_owner}</b>
+				<br />
+				If it requests a name: need to write "<b>{zellepayment_details}</b>"
+				<br />
+				Payment details: <b>{zellepayment_address}</b>
+				<br />
+				Order total amount is <b>{total_paid}</b>
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="color:#6f00d3; font-size: 12px; font-weight:bold; padding: 0.5em 0;">Note: If this email does not work for you, contact our support we will supply you a different one then you would fill out the form normally below.</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td>
+				<ol>
+					<li>Visit a <a href="https://www.zellepay.com/" target="_blank" style="color:#6f00d3; text-decoration:none;">https://www.zellepay.com/</a> or <a href="https://play.google.com/store/apps/details?id=com.zellepay.zelle&utm_source=APKdownloadMirror.com" target="_blank" style="color:#6f00d3; text-decoration:none;">download Zelle App</a>.</li>
+					<li>You need to be registered in Zelle either with your bank or the Zelle App. Zelle is usually available through online banking.</li>
+					<li>Then you need to send us a payment to our email address <b>{zellepayment_owner}</b>.</li>
+					<li>If it requests a name as well, please write "<b>{zellepayment_details}</b>".</li>
+					<li>Be sure to indicate in the payment details: <b>{zellepayment_address}</b>.<br> 
+					<b>(IMPORTANT NOTE: it is very important that you DO NOT WRITE the name of our site or name products in the payment order).</b></li>
+					<li>Once you have made the payment, you will need to send us the confirmation number, your first and last name attached to your Bank/Zelle account, and the EXACT amount sent by filling out the form below and submitting your order. Please keep a screenshot ready in the rare event we cannot locate your transfer.</li> 
+					<li><b>NEVER CONTACT us the email we gave you to pay for your order, they are for payment purposes ONLY. Your order could be delayed or canceled if you contact this email. Also, NEVER CONTACT directly ZELLE, for any reason.</b></li>
+					<li>We cannot accept payment from these banks listed, if you send a payment it will get rejected and the bank will issue a refund.<br>
+					 - Fifth Third Bank<br>
+					 - First Tennessee Bank</li>
+					<li>You can tell us the information in your personal account, either through the Contact page (<a href="https://www.big-up.shop/feedback.html" target="_blank" style="color:#6f00d3; text-decoration:none;">https://www.big-up.shop/feedback.html</a>) or in the Telegram (<a href="https://t.me/bigupshop" target="_blank" style="color:#6f00d3; text-decoration:none;">https://t.me/bigupshop</a>). <b>Please note that the Telegram via TOR does not work.</b></li>
+				</ol>
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left">
+				You can review this order and download your invoice from the <a href="{shop_url}history.php" style="color:#6f00d3; font-weight:bold; text-decoration:none;">"Order history"</a> section of your account by clicking <a href="{shop_url}my-account.php" style="color:#6f00d3; font-weight:bold; text-decoration:none;">"My account"</a> on our Website.
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="center" style="font-size:10px; border-top: 1px solid #6f00d3;">
+				<a href="{shop_url}" style="color:#6f00d3; font-weight:bold; text-decoration:none;">{shop_name}</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
